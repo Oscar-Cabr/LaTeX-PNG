@@ -10,16 +10,16 @@ Just execute the file giving it as argument the .tex file you want to convert, t
 For example:
 
 <pre>
-python3 latex\_to\_png.py texcode/example.tex images/example.png
+python3 latex_to_png.py texcode/example.tex images/example.png
 </pre>
 
 ## Prerequisites
 
-* <pre>python</pre>: Python interpreter, to execute the main script.
-* <pre>texlive-core</pre> <pre>texlive-latexextra</pre>: The base TeX Live distribution, to compiles .tex files into .pdf, also additional LaTeX packages to ensure that minimal and standalone documents can compile succesfully.
-* <pre>poppler</pre>: PDF rendering utilities, including pdftocairo, so it converts the pdf generated file into a .png image, as preferred method.
-* <pre>imagemagick</pre>: A suite of image manipulation tools, it provides the convert command as a fallback in case pdftocairo fails.
-* <pre>ghostscript</pre>: A PostScript and PDF rendering engine, it improves PDF conversion and transparency handling.
+* <pre>python</pre> Python interpreter, to execute the main script.
+* <pre>texlive-core  texlive-latexextra</pre> The base TeX Live distribution, to compiles .tex files into .pdf, also additional LaTeX packages to ensure that minimal and standalone documents can compile succesfully.
+* <pre>poppler</pre> PDF rendering utilities, including pdftocairo, so it converts the pdf generated file into a .png image, as preferred method.
+* <pre>imagemagick</pre> A suite of image manipulation tools, it provides the convert command as a fallback in case pdftocairo fails.
+* <pre>ghostscript</pre> A PostScript and PDF rendering engine, it improves PDF conversion and transparency handling.
 
 You can install them all in ArchLinux by the following sentence:
 
